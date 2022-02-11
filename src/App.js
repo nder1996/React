@@ -1,12 +1,13 @@
+import "./App.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Prueba_1 from './components/Prueba_1';
+
 function App() {
-    return (
-        <div className="App">
-        <h1>ola cachon</h1>
-        
-       
-       
-    </div>
-    );
+  return (
+    <Router>
+      <Route path="/Prueba_1" component={Prueba_1} />
+    </Router>
+  );
 }
 
 export default App;
